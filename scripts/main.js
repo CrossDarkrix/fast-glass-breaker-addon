@@ -75,7 +75,16 @@ world.afterEvents.playerSwingStart.subscribe((event) => {
     };
 
     system.run(() => {
+        player.dimension.playSound(
+        "random.glass",
+        {
+            x: loc.x + 0.5,
+            y: loc.y + 0.5,
+            z: loc.z + 0.5
+        }
+    );
 
+        player.dimension.runCommand(`particle minecraft:block_destruct ${loc.x + 0.5} ${loc.y + 0.5} ${loc.z + 0.5}`);
         player.dimension.runCommand(
             `setblock ${loc.x} ${loc.y} ${loc.z} air`
         );

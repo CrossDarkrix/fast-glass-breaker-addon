@@ -1,16 +1,16 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Fast Glass BreakerV3",
+    "name": "Fast Glass BreakerV5",
     "description": "Break glass instantly with pickaxes",
-    "uuid": "0d41811b-5bc7-4fd6-b8fa-f70c7cd64a01",
+    "uuid": "3df94244-39dd-4ae8-83b7-3525fff50e76",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 70]
   },
   "modules": [
     {
       "type": "script",
-      "uuid": "38848fd1-b190-4dcc-a007-d1f507e0a6b2",
+      "uuid": "487b692c-4774-4f8a-9df3-1d346b512db0",
       "version": [1, 0, 0],
       "entry": "scripts/main.js",
       "language": "javascript"
